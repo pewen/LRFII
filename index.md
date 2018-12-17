@@ -4,7 +4,7 @@
 ----------|----------|--------------
 Backend| flask| simple y liviano.
 Cálculos/analisis| numpy
-DB no SQL| araggoDB | almacenar la topoligia mesh de cada red comunitaria para poder analizarla. Este tipo de análisis son naturales para db de grafos.
+DB no SQL| arangoDB | almacenar la topoligia mesh de cada red comunitaria para poder analizarla. Este tipo de análisis son naturales para db de grafos.
 Plots js| d3| estamos desarrollando una biblioteca q va a ser un api de alto nivel de d3 para q sea simple usarlo.
 Plots server| dash | lucas: justificar
 Front end | vue.js | es similar a react solo q react esta pensado de entraba para un sitio gigante, en cambio vue es un framawork progresivo, se van cargando módulos a medida q el proyecto avanza lo q hace q sea mas simple mantener el codigo
