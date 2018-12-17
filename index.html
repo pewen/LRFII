@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>propuestas Fase II – index</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="normalize.scss" />
+  <link rel="stylesheet" href="midnight.scss" />
+  <link rel="stylesheet" href="fonts.scss" />
+  <link rel="stylesheet" href="rouge-base16-dark.scss" />
+</head>
+<body>
+<h2 id="propuesta-de-herramientas-a-utilizar-en-la-fase-ii">Propuesta de herramientas a utilizar en la fase II</h2>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 29%" />
+<col style="width: 41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Servicio</th>
+<th>Software</th>
+<th>justificación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Backend</td>
+<td>flask</td>
+<td>simple y liviano.</td>
+</tr>
+<tr class="even">
+<td>Cálculos/analisis</td>
+<td>numpy</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DB no SQL</td>
+<td>araggoDB</td>
+<td>almacenar la topoligia mesh de cada red comunitaria para poder analizarla. Este tipo de análisis son naturales para db de grafos.</td>
+</tr>
+<tr class="even">
+<td>Plots js</td>
+<td>d3</td>
+<td>estamos desarrollando una biblioteca q va a ser un api de alto nivel de d3 para q sea simple usarlo.</td>
+</tr>
+<tr class="odd">
+<td>Plots server</td>
+<td>dash</td>
+<td>lucas: justificar</td>
+</tr>
+<tr class="even">
+<td>Front end</td>
+<td>vue.js</td>
+<td>es similar a react solo q react esta pensado de entraba para un sitio gigante, en cambio vue es un framawork progresivo, se van cargando módulos a medida q el proyecto avanza lo q hace q sea mas simple mantener el codigo</td>
+</tr>
+<tr class="odd">
+<td>Font</td>
+<td>no usar google font (o ningún otro producto de google) para protejer/mejorar la privacidad de los usuarios.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Analytics</td>
+<td>matomo, soft libre q reemplaza al g analytic</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>blog</td>
+<td>strapy, si se necesita una bloge mas de blog para noticias o cuestiones similares podemos usarstrapy. es un front lindo q permite escribir notas con una lógica similar a WordPress pero genera json para luego consumirlos desde el sitio estático. Esto de muy bueno por q no le agrega carga extra al servar.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Estas son las tecnologías/bibliotecas q podemos usar usar. después tenemos q definir q análisis en concreto nos interesa</p>
+</body>
+</html>
