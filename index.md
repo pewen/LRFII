@@ -29,11 +29,11 @@ layout: default
 > no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
 
 ## Analytics
-**matomo**
+* **matomo**
 > soft libre q reemplaza al G. analytics.
 
 ## blog/CMS
-**strapy**
+* **strapy**
 > si se necesita una bloge mas de blog para noticias o cuestiones similares podemos usar strapy. Es un front lindo q permite escribir notas con una lógica similar a WordPress pero genera json para luego consumirlos desde el sitio estático. Esto es muy bueno por q no le agrega carga extra al server.
 
 Estas son las tecnologías/bibliotecas q proponemos usar. Después tenemos q definir q análisis en concreto nos intereza.
