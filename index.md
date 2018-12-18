@@ -25,8 +25,9 @@ layout: default
 * **vue.js**
 > es similar a react solo q react está pensado de entrada para un sitio gigante, en cambio vue es un framework progresivo (sería el mismo caso que comparar Django vs flask), se van cargando módulos a medida q el proyecto avanza, lo hace mas simple p/ mantener.
 
-## Fonts
-> no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
+## GIS
+* **OpenStreeMap**
+> podemos usar las coordenadas gps de los LR para graficarlos en un mapa. También se puede analizar como es la potencia de conexión entre dos LR (si es que ese dato se mide) y correlacionarlo con las condiciones climáticas y las distancias
 
 ## Analytics
 * **matomo**
@@ -35,5 +36,8 @@ layout: default
 ## blog/CMS
 * **strapy**
 > si se necesita una bloge mas de blog para noticias o cuestiones similares podemos usar strapy. Es un front lindo q permite escribir notas con una lógica similar a WordPress pero genera json para luego consumirlos desde el sitio estático. Esto es muy bueno por q no le agrega carga extra al server.
+
+## Fonts
+> no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
 
 Estas son las tecnologías/bibliotecas q proponemos usar. Después tenemos q definir q análisis en concreto nos intereza.
