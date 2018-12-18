@@ -23,7 +23,7 @@ layout: default
 
 ## Front end
 * **vue.js**
-> es similar a react solo q react está pensado de entrada para un sitio gigante, en cambio vue es un framework progresivo (sería el mismo caso que comparar Django vs flash), se van cargando módulos a medida q el proyecto avanza, lo hace mas simple p/ mantener.
+> es similar a react solo q react está pensado de entrada para un sitio gigante, en cambio vue es un framework progresivo (sería el mismo caso que comparar Django vs flask), se van cargando módulos a medida q el proyecto avanza, lo hace mas simple p/ mantener.
 
 ## Fonts
 > no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
