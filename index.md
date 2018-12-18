@@ -14,8 +14,8 @@ layout: default
 > almacenar la topoligía mesh de cada red comunitaria para poder analizarla y graficarla. Este tipo de análisis son naturales para db de grafos.
 
 ## Plots js
-* **d3**
-> estamos desarrollando una biblioteca q va a ser un API de alto nivel de d3 para q sea simple usarlo.
+* **D3**
+> estamos desarrollando una biblioteca q va a ser un API de alto nivel de D3 para q sea simple usarlo.
 
 ## Plots (en el server)
 * **dash**
