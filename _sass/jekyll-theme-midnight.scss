@@ -5,7 +5,7 @@
 body {
   padding:0px 0 20px 0px;
   margin: 0px;
-  font:17px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#f0e7d5;
   font-weight: normal;
   background: #252525;
@@ -245,18 +245,18 @@ section {
     }
 
     p {
-      color: #ffffff;
+      color: #d7cfbe;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
-      font-size: 25px;
+      font-size: 18px;
       text-align: center;
     }
 
     .credits {
-      font-size: 15px;
+      font-size: 11px;
       font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
-      color: #ffffff;
+      color: #696969;
       margin-top: -10px;
 
       &.left {
