@@ -25,7 +25,7 @@ layout: default
 ## Plots (en el server)
 * **dash**
 * [plot.ly/products/dash](https://plot.ly/products/dash/)
-> lucas: justificar
+> Dash is a productive Python framework for building web applications. Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python. It's particularly suited for anyone who works with data in Python.
 
 ## Front end
 * **vue.js**
