@@ -11,7 +11,7 @@ layout: default
 
 ### DB NoSQL
 **arangoDB**
-> almacenar la topoligia mesh de cada red comunitaria para poder analizarla. Este tipo de análisis son naturales para db de grafos.
+> almacenar la topoligia mesh de cada red comunitaria para poder analizarla y graficarla. Este tipo de análisis son naturales para db de grafos.
 
 ### Plots js
 **d3**
