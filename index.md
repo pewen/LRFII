@@ -45,7 +45,7 @@ layout: default
 ## blog/CMS
 * **Strapi**
 * [strapi.io](https://strapi.io)
-> si se necesita una bloge mas de blog para noticias o cuestiones similares podemos usar Strapi. Es un front lindo q permite escribir notas con una lógica similar a WordPress pero genera json para luego consumirlos desde el sitio estático. Esto es muy bueno por q no le agrega carga extra al server.
+> blog/CSM para noticias o cuestiones similares. Es un front lindo q permite escribir notas con una lógica similar a WordPress pero genera json para luego consumirlos desde el sitio estático (minimiza la carga en el server).
 
 ## Fonts
 > no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
