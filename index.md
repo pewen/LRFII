@@ -48,11 +48,14 @@ layout: default
 > blog/CMS para noticias o cuestiones similares. Es un front lindo q permite escribir notas con una lógica similar a WordPress pero genera json para luego consumirlos desde un sitio estático (minimiza la carga en el server).
 
 ## Tickets/Tracking
-* **Request Tracker (RT) && Request Tracker for Incident Response (RTIR)**
-* [bestpractical.com/request-tracker/](https://bestpractical.com/request-tracker/)
+* **Request Tracker (RT)**
+* [bestpractical.com/rt](https://bestpractical.com/rt)
 > RT is an enterprise-grade issue tracking system. It allows organizations
 to keep track of what needs to get done, who is working on which tasks,
 what's already been done, and when tasks were (or weren't) completed.
+* **Request Tracker for Incident Response (RTIR)**
+* [bestpractical.com/rtir](https://bestpractical.com/rtir)
+> Request Tracker for Incident Response (RTIR) builds on all the features of RT and provides pre-configured queues and workflows designed for incident response teams.
 
 ## Fonts
 > no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
