@@ -60,4 +60,4 @@ what's already been done, and when tasks were (or weren't) completed.
 ## Fonts
 > no usar google font (o ningún otro producto de google) para protejer/mejorar  la privacidad de los usuarios.
 
-Estas son las tecnologías/bibliotecas q proponemos usar. Después tenemos q definir q análisis en concreto nos intereza.
+Estas son las tecnologías/bibliotecas q proponemos usar. Después tenemos q definir q análisis en concreto nos interesa.
