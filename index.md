@@ -37,13 +37,17 @@ layout: default
 * [www.openstreetmap.org](https://www.openstreetmap.org)
 > podemos usar las coordenadas gps de los LR para graficarlos en un mapa. También se puede analizar como es la potencia de conexión entre dos LR (si es que ese dato se mide) y correlacionarlo con las condiciones climáticas y las distancias
 
-## Machine Learning with Networking Data
+## Machine Learning
 * **What Networking Problems Can ML Help?**
 * [https://ripe77.ripe.net/archives/video/2221/](https://ripe77.ripe.net/archives/video/2221/)
 > Network Security: Malicious Traffic Detection, Malware Identification, Data Loss Prevention
 > Traffic Classification: Application Identification, QoS Policies, Traffic Engineering
 > Optimization / Predictive Maintenance
 > Log Analysis
+
+* **DNS: Using ML to solve classification**
+* [https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/](https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/)
+> Detecting resolvers
 
 ## Analytics
 * **matomo**
