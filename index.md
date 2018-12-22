@@ -7,6 +7,10 @@ layout: default
 * [flask.pocoo.org](http://flask.pocoo.org)
 > simple y liviano.
 
+* **GraphQL**
+* [graphql.org](https://graphql.org)
+> GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL.
+
 ## Cálculos/análisis
 * **NumPy**
 * [www.numpy.org](https://www.numpy.org)
