@@ -7,6 +7,10 @@ layout: default
 * [flask.pocoo.org](http://flask.pocoo.org)
 > simple y liviano.
 
+* **Falcon**
+* [falconframework.org](https://falconframework.org)
+> Falcon is a bare-metal Python web API framework for building very fast app backends and microservices
+
 * **GraphQL**
 * [graphql.org](https://graphql.org)
 > GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. **Apps using GraphQL can be quick even on slow mobile network connections.**
