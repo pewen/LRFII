@@ -9,7 +9,7 @@ layout: default
 
 * **GraphQL**
 * [graphql.org](https://graphql.org)
-> GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL.
+> GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. **Apps using GraphQL can be quick even on slow mobile network connections.**
 
 ## Cálculos/análisis
 * **NumPy**
