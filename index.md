@@ -19,6 +19,16 @@ text-color: has-text-white
 
 > simple y liviano.
 
+* **Falcon**
+* [falconframework.org](https://falconframework.org)
+
+> Falcon is a bare-metal Python web API framework for building very fast app backends and microservices
+
+* **GraphQL**
+* [graphql.org](https://graphql.org)
+
+>GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. Apps using GraphQL can be quick even on slow mobile network connections.
+
 ## Cálculos/análisis
 * **NumPy**
 * [www.numpy.org](https://www.numpy.org)
@@ -63,6 +73,17 @@ go vs flask), se van cargando módulos a medida q el proyecto avanza, lo hace ma
 > podemos usar las coordenadas gps de los LR para graficarlos en un mapa. Tambié
 n se puede analizar como es la potencia de conexión entre dos LR (si es que ese
 dato se mide) y correlacionarlo con las condiciones climáticas y las distancias
+
+## Machine Learning
+* **What Networking Problems Can ML Help?**
+* [https://ripe77.ripe.net/archives/video/2221/](https://ripe77.ripe.net/archives/video/2221/)
+
+> Network Security: Malicious Traffic Detection, Malware Identification, Data Loss Prevention Traffic Classification: Application Identification, QoS Policies, Traffic Engineering Optimization / Predictive Maintenance Log Analysis
+
+* **DNS: Using ML to solve classification**
+* [https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/](https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/)
+
+> Detecting resolvers
 
 ## Analytics
 * **matomo**
