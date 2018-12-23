@@ -3,7 +3,6 @@ title: Propuesta para la Fase II
 subtitle: (borrador para ser puesto en consideración por Altermundi)
 lang: es
 css:
-    - css/style.css
     - css/midnight.scss
 
 # hero_size: is-small, is-medium, is-large, is-fullheight
