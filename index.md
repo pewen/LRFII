@@ -1,4 +1,5 @@
 ---
+Time-stamp: <>
 title: Propuesta para la Fase II
 subtitle: (borrador para ser puesto en consideración por Altermundi)
 lang: es
