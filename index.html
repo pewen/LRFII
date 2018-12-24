@@ -1,150 +1,137 @@
 <!DOCTYPE html>
-<html  lang=es >
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>index.html – Propuesta para la Fase II</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    </head>
-  <body>
-    <section class="hero  is-small   is-dark  is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Propuesta para la Fase II
-          </h1>
-                    <h2 class="subtitle">
-            (borrador para ser puesto en consideración por Altermundi)
-          </h2>
-                  </div>
-      </div>
-    </section>
-
-    <div class=" has-background-grey-light   has-text-black ">
-      <div class="container">
-        <h2 id="backend">Backend</h2>
-        <ul>
-        <li><strong>Flask</strong></li>
-        <li><a href="http://flask.pocoo.org">flask.pocoo.org</a></li>
-        </ul>
-        <blockquote>
-        <p>simple y liviano.</p>
-        </blockquote>
-        <ul>
-        <li><strong>Falcon</strong></li>
-        <li><a href="https://falconframework.org">falconframework.org</a></li>
-        </ul>
-        <blockquote>
-        <p>Falcon is a bare-metal Python web API framework for building very fast app backends and microservices</p>
-        </blockquote>
-        <ul>
-        <li><strong>GraphQL</strong></li>
-        <li><a href="https://graphql.org">graphql.org</a></li>
-        </ul>
-        <blockquote>
-        <p>GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. Apps using GraphQL can be quick even on slow mobile network connections.</p>
-        </blockquote>
-        <h2 id="cálculosanálisis">Cálculos/análisis</h2>
-        <ul>
-        <li><strong>NumPy</strong></li>
-        <li><a href="https://www.numpy.org">www.numpy.org</a></li>
-        </ul>
-        <blockquote>
-        <p>NumPy is the fundamental package for scientific computing with Python.</p>
-        </blockquote>
-        <h2 id="db-nosql">DB NoSQL</h2>
-        <ul>
-        <li><strong>arangoDB</strong></li>
-        <li><a href="https://www.arangodb.com">www.arangodb.com</a></li>
-        </ul>
-        <blockquote>
-        <p>almacenar la topoligía mesh de cada red comunitaria para poder analizarla y gr aficarla. Este tipo de análisis son naturales para db de grafos.</p>
-        </blockquote>
-        <h2 id="plots-js">Plots js</h2>
-        <ul>
-        <li><strong>D3</strong></li>
-        <li><a href="https://d3js.org">d3js.org</a></li>
-        </ul>
-        <blockquote>
-        <p>estamos desarrollando una biblioteca q va a ser un API de alto nivel de D3 par a q sea simple usarlo.</p>
-        </blockquote>
-        <h2 id="plots-en-el-server">Plots (en el server)</h2>
-        <ul>
-        <li><strong>dash</strong></li>
-        <li><a href="https://plot.ly/products/dash/">plot.ly/products/dash</a></li>
-        </ul>
-        <blockquote>
-        <p>Dash is a productive Python framework for building web applications. Dash is i deal for building data visualization apps with highly custom user interfaces in pure Python. It’s particularly suited for anyone who works with data in Python.</p>
-        </blockquote>
-        <h2 id="front-end">Front end</h2>
-        <ul>
-        <li><strong>vue.js</strong></li>
-        <li><a href="https://vuejs.org">vuejs.org</a></li>
-        </ul>
-        <blockquote>
-        <p>es similar a react solo q react está pensado de entrada para un sitio gigante, en cambio vue es un framework progresivo (sería el mismo caso que comparar Djan go vs flask), se van cargando módulos a medida q el proyecto avanza, lo hace mas simple p/ mantener.</p>
-        </blockquote>
-        <h2 id="gis">GIS</h2>
-        <ul>
-        <li><strong>OpenStreeMap</strong></li>
-        <li><a href="https://www.openstreetmap.org">www.openstreetmap.org</a></li>
-        </ul>
-        <blockquote>
-        <p>podemos usar las coordenadas gps de los LR para graficarlos en un mapa. Tambié n se puede analizar como es la potencia de conexión entre dos LR (si es que ese dato se mide) y correlacionarlo con las condiciones climáticas y las distancias</p>
-        </blockquote>
-        <h2 id="machine-learning">Machine Learning</h2>
-        <ul>
-        <li><strong>What Networking Problems Can ML Help?</strong></li>
-        <li><a href="https://ripe77.ripe.net/archives/video/2221/" class="uri">https://ripe77.ripe.net/archives/video/2221/</a></li>
-        </ul>
-        <blockquote>
-        <p>Network Security: Malicious Traffic Detection, Malware Identification, Data Loss Prevention Traffic Classification: Application Identification, QoS Policies, Traffic Engineering Optimization / Predictive Maintenance Log Analysis</p>
-        </blockquote>
-        <ul>
-        <li><strong>DNS: Using ML to solve classification</strong></li>
-        <li><a href="https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/" class="uri">https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/</a></li>
-        </ul>
-        <blockquote>
-        <p>Detecting resolvers</p>
-        </blockquote>
-        <h2 id="analytics">Analytics</h2>
-        <ul>
-        <li><strong>matomo</strong></li>
-        <li><a href="https://matomo.org">matomo.org</a></li>
-        </ul>
-        <blockquote>
-        <p>soft libre q reemplaza al G. analytics.</p>
-        </blockquote>
-        <h2 id="blogcms">blog/CMS</h2>
-        <ul>
-        <li><strong>Strapi</strong></li>
-        <li><a href="https://strapi.io">strapi.io</a></li>
-        </ul>
-        <blockquote>
-        <p>blog/CMS para noticias o cuestiones similares. Es un front lindo q permite esc ribir notas con una lógica similar a WordPress pero genera json para luego consu mirlos desde un sitio estático (minimiza la carga en el server).</p>
-        </blockquote>
-        <h2 id="ticketstracking">Tickets/Tracking</h2>
-        <ul>
-        <li><strong>Request Tracker (RT)</strong></li>
-        <li><a href="https://bestpractical.com/rt">bestpractical.com/rt</a></li>
-        </ul>
-        <blockquote>
-        <p>RT is an enterprise-grade issue tracking system. It allows organizations to keep track of what needs to get done, who is working on which tasks, what’s already been done, and when tasks were (or weren’t) completed.</p>
-        </blockquote>
-        <ul>
-        <li><strong>Request Tracker for Incident Response (RTIR)</strong></li>
-        <li><a href="https://bestpractical.com/rtir">bestpractical.com/rtir</a></li>
-        </ul>
-        <blockquote>
-        <p>Request Tracker for Incident Response (RTIR) builds on all the features of RT and provides pre-configured queues and workflows designed for incident response teams.</p>
-        </blockquote>
-        <h2 id="fonts">Fonts</h2>
-        <blockquote>
-        <p>no usar google font (o ningún otro producto de google) para protejer/mejorar la privacidad de los usuarios.</p>
-        </blockquote>
-        <p>Estas son las tecnologías/bibliotecas q proponemos usar. Después tenemos q defin ir q análisis en concreto nos interesa.</p>
-      </div>
-    </div>
-  </body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-s – Propuesta para la Fase II</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Propuesta para la Fase II</h1>
+<p class="subtitle">(borrador para ser puesto en consideración por Altermundi)</p>
+</header>
+<h2 id="backend">Backend</h2>
+<ul>
+<li>Flask <a href="http://flask.pocoo.org">flask.pocoo.org</a></li>
+</ul>
+<blockquote>
+<p>simple y liviano.</p>
+</blockquote>
+<ul>
+<li>Vibora <a href="https://vibora.io">vibora.io</a></li>
+</ul>
+<blockquote>
+<p>Just like Flask. Vibora APIs were heavily inspired by the awesome Flask.</p>
+</blockquote>
+<ul>
+<li>Falcon <a href="https://falconframework.org">falconframework.org</a></li>
+</ul>
+<blockquote>
+<p>Falcon is a bare-metal Python web API framework for building very fast app backends and microservices</p>
+</blockquote>
+<ul>
+<li>GraphQL <a href="https://graphql.org">graphql.org</a></li>
+</ul>
+<blockquote>
+<p>GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. Esto va de la mano de usar db NoSQL. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. <strong>Apps using GraphQL can be quick even on slow mobile network connections.</strong></p>
+</blockquote>
+<h2 id="cálculosanálisis">Cálculos/análisis</h2>
+<ul>
+<li>NumPy <a href="https://www.numpy.org">www.numpy.org</a></li>
+</ul>
+<blockquote>
+<p>NumPy is the fundamental package for scientific computing with Python.</p>
+</blockquote>
+<h2 id="db-nosql">DB NoSQL</h2>
+<ul>
+<li>arangoDB <a href="https://www.arangodb.com">www.arangodb.com</a></li>
+</ul>
+<blockquote>
+<p>almacenar la topoligía mesh de cada red comunitaria para poder analizarla y gr aficarla. Este tipo de análisis son naturales para db de grafos.</p>
+</blockquote>
+<h2 id="plots">Plots</h2>
+<ul>
+<li><p>Plots js (en el browser)</p></li>
+<li><p>D3 <a href="https://d3js.org">d3js.org</a></p></li>
+</ul>
+<blockquote>
+<p>estamos desarrollando una biblioteca q va a ser un API de alto nivel de D3 par a q sea simple usarlo.</p>
+</blockquote>
+<ul>
+<li><p>Plots (en el server)</p></li>
+<li><p>dash <a href="https://plot.ly/products/dash/">plot.ly/products/dash</a></p></li>
+</ul>
+<blockquote>
+<p>Dash is a productive Python framework for building web applications. Dash is i deal for building data visualization apps with highly custom user interfaces in pure Python. It’s particularly suited for anyone who works with data in Python.</p>
+</blockquote>
+<h2 id="front-end">Front end</h2>
+<ul>
+<li>vue.js <a href="https://vuejs.org">vuejs.org</a></li>
+</ul>
+<blockquote>
+<p>es similar a react solo q react está pensado de entrada para un sitio gigante, en cambio vue es un framework progresivo (sería el mismo caso que comparar Djan go vs flask), se van cargando módulos a medida q el proyecto avanza, lo hace mas simple p/ mantener.</p>
+</blockquote>
+<h2 id="gis">GIS</h2>
+<ul>
+<li>OpenStreeMap <a href="https://www.openstreetmap.org">www.openstreetmap.org</a></li>
+</ul>
+<blockquote>
+<p>podemos usar las coordenadas gps de los LR para graficarlos en un mapa. Tambié n se puede analizar como es la potencia de conexión entre dos LR (si es que ese dato se mide) y correlacionarlo con las condiciones climáticas y las distancias</p>
+</blockquote>
+<h2 id="machine-learning">Machine Learning</h2>
+<ul>
+<li>What Networking Problems Can ML Help? <a href="https://ripe77.ripe.net/archives/video/2221/" class="uri">https://ripe77.ripe.net/archives/video/2221/</a></li>
+</ul>
+<blockquote>
+<p>Network Security: Malicious Traffic Detection, Malware Identification, Data Loss Prevention Traffic Classification: Application Identification, QoS Policies, Traffic Engineering Optimization / Predictive Maintenance Log Analysis</p>
+</blockquote>
+<ul>
+<li>DNS: Using ML to solve classification <a href="https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/" class="uri">https://blog.apnic.net/2018/11/21/detecting-resolvers-at-nz/</a></li>
+</ul>
+<blockquote>
+<p>Detecting resolvers</p>
+</blockquote>
+<h2 id="analytics">Analytics</h2>
+<ul>
+<li>matomo <a href="https://matomo.org">matomo.org</a></li>
+</ul>
+<blockquote>
+<p>soft libre q reemplaza al G. analytics.</p>
+</blockquote>
+<h2 id="blogcms">blog/CMS</h2>
+<ul>
+<li>Strapi <a href="https://strapi.io">strapi.io</a></li>
+</ul>
+<blockquote>
+<p>blog/CMS para noticias o cuestiones similares. Es un front lindo q permite esc ribir notas con una lógica similar a WordPress pero genera json para luego consu mirlos desde un sitio estático (minimiza la carga en el server).</p>
+</blockquote>
+<h2 id="ticketstracking">Tickets/Tracking</h2>
+<ul>
+<li>Request Tracker (RT) <a href="https://bestpractical.com/rt">bestpractical.com/rt</a></li>
+</ul>
+<blockquote>
+<p>RT is an enterprise-grade issue tracking system. It allows organizations to keep track of what needs to get done, who is working on which tasks, what’s already been done, and when tasks were (or weren’t) completed.</p>
+</blockquote>
+<ul>
+<li>Request Tracker for Incident Response (RTIR) <a href="https://bestpractical.com/rtir">bestpractical.com/rtir</a></li>
+</ul>
+<blockquote>
+<p>Request Tracker for Incident Response (RTIR) builds on all the features of RT and provides pre-configured queues and workflows designed for incident response teams.</p>
+</blockquote>
+<h2 id="fonts">Fonts</h2>
+<blockquote>
+<p>no usar google font (o ningún otro producto de google) para protejer/mejorar la privacidad de los usuarios.</p>
+</blockquote>
+<h3 id="estas-son-las-tecnologíasbibliotecas-q-proponemos-usar.-después-tenemos-q-definir-q-análisis-en-concreto-nos-interesa.">Estas son las tecnologías/bibliotecas q proponemos usar. Después tenemos q definir q análisis en concreto nos interesa.</h3>
+</body>
 </html>
