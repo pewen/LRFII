@@ -3,13 +3,13 @@ Time-stamp: <>
 title: Propuesta para la Fase II
 subtitle: (borrador para ser puesto en consideración por Altermundi)
 lang: es
-css: css/midnight.scss
+# css: css/midnight.scss
 
 # hero_size: is-small, is-medium, is-large, is-fullheight
 hero_size: is-small
 hero_color: is-dark
-body-color: has-background-dark
-text-color: has-text-white
+body-color: has-background-grey-light
+text-color: has-text-black
 ---
 
 ## Backend
