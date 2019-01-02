@@ -1,4 +1,5 @@
 ---
+lang: es
 pagetitle: SoporteRemoto - Arquitectura Prometheus
 ---
 
