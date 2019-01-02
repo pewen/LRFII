@@ -1,3 +1,7 @@
+---
+pagetitle: SoporteRemoto - Arquitectura Prometheus
+---
+
 # Arquitectura Prometheus
 
 ![Arquitectura Prometheus](img/arquitectura.prometheus.png)
