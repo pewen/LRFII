@@ -1,2 +1,2 @@
 %.html: %.md
-	pandoc --template GitHub.html5 -f markdown -t html5 -s -o $@ $<
+	pandoc -c css/github-pandoc.css -c css/buttondown.css -f markdown -t html5 -s -o $@ $<
